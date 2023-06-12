@@ -1,31 +1,35 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{D0D71380-50D4-4A5E-8AF7-87B5E2EC0F87}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ApiCatalogo/Controllers/ProdutosController.cs">
+﻿<Properties StartupConfiguration="{D0D71380-50D4-4A5E-8AF7-87B5E2EC0F87}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.ItemProperties.ApiCatalogo PreferredExecutionTarget="/Applications/Arc.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ApiCatalogo/Repository/Repository.cs">
     <Files>
-      <File FileName="ApiCatalogo/Controllers/ProdutosController.cs" Line="64" Column="26" />
-      <File FileName="ApiCatalogo/Models/Produto.cs" Line="1" Column="1" />
-      <File FileName="ApiCatalogo/Models/Categoria.cs" Line="8" Column="22" />
+      <File FileName="ApiCatalogo/Controllers/ProdutosController.cs" />
+      <File FileName="ApiCatalogo/Controllers/CategoriasController.cs" />
+      <File FileName="ApiCatalogo/Program.cs" />
+      <File FileName="ApiCatalogo/Properties/launchSettings.json" />
+      <File FileName="ApiCatalogo/appsettings.json" Line="3" Column="90" />
+      <File FileName="ApiCatalogo/Repository/IRepository.cs" Line="5" Column="1" />
+      <File FileName="ApiCatalogo/Repository/Repository.cs" Line="4" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ApiCatalogo" expanded="True">
             <Node name="ApiCatalogo" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="ProdutosController.cs" selected="True" />
-              </Node>
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
+              <Node name="Repository" expanded="True">
+                <Node name="Repository.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <Breakpoint file="/Users/gui1andre/Projects/ApiCatalogo/ApiCatalogo/Controllers/ProdutosController.cs" relfile="ApiCatalogo/Controllers/ProdutosController.cs" line="57" column="1" />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ApiCatalogo PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
