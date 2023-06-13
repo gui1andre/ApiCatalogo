@@ -1,20 +1,17 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{D0D71380-50D4-4A5E-8AF7-87B5E2EC0F87}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ApiCatalogo PreferredExecutionTarget="/Applications/Arc.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ApiCatalogo PreferredExecutionTarget="/Applications/Arc.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ApiCatalogo/Program.cs">
     <Files>
-      <File FileName="ApiCatalogo/Repository/ICategoriaRepository.cs" Line="9" Column="51" />
-      <File FileName="ApiCatalogo/Repository/CategoriaRepository.cs" Line="17" Column="6" />
-      <File FileName="ApiCatalogo/ApiCatalogo.csproj" Line="1" Column="1" />
-      <File FileName=".vs/ApiCatalogo/xs/project-cache/ApiCatalogo-Debug.json" Line="1" Column="1" />
-      <File FileName=".DS_Store" />
-      <File FileName=".vs/ApiCatalogo/xs/UserPrefs.xml" Line="1" Column="1" />
-      <File FileName="ApiCatalogo/obj/Debug/net6.0/project.razor.json" Line="1" Column="1" />
+      <File FileName="ApiCatalogo/Repository/IUnitOfWork.cs" Line="8" Column="19" />
+      <File FileName="ApiCatalogo/Repository/UnitOfWork.cs" Line="20" Column="1" />
+      <File FileName="ApiCatalogo/Repository/ProdutoRepository.cs" Line="8" Column="31" />
+      <File FileName="ApiCatalogo/Program.cs" Line="9" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,6 +19,8 @@
           <Node name="ApiCatalogo" expanded="True">
             <Node name="ApiCatalogo" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Repository" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
