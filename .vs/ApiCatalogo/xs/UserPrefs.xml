@@ -1,35 +1,31 @@
-﻿<Properties StartupConfiguration="{D0D71380-50D4-4A5E-8AF7-87B5E2EC0F87}|Default" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.ItemProperties.ApiCatalogo PreferredExecutionTarget="/Applications/Arc.app" />
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{D0D71380-50D4-4A5E-8AF7-87B5E2EC0F87}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ApiCatalogo/Repository/Repository.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ApiCatalogo PreferredExecutionTarget="/Applications/Arc.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="ApiCatalogo/Controllers/ProdutosController.cs" />
-      <File FileName="ApiCatalogo/Controllers/CategoriasController.cs" />
-      <File FileName="ApiCatalogo/Program.cs" />
-      <File FileName="ApiCatalogo/Properties/launchSettings.json" />
-      <File FileName="ApiCatalogo/appsettings.json" Line="3" Column="90" />
-      <File FileName="ApiCatalogo/Repository/IRepository.cs" Line="5" Column="1" />
-      <File FileName="ApiCatalogo/Repository/Repository.cs" Line="4" Column="37" />
+      <File FileName="ApiCatalogo/Repository/ICategoriaRepository.cs" Line="9" Column="51" />
+      <File FileName="ApiCatalogo/Repository/CategoriaRepository.cs" Line="17" Column="6" />
+      <File FileName="ApiCatalogo/ApiCatalogo.csproj" Line="1" Column="1" />
+      <File FileName=".vs/ApiCatalogo/xs/project-cache/ApiCatalogo-Debug.json" Line="1" Column="1" />
+      <File FileName=".DS_Store" />
+      <File FileName=".vs/ApiCatalogo/xs/UserPrefs.xml" Line="1" Column="1" />
+      <File FileName="ApiCatalogo/obj/Debug/net6.0/project.razor.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ApiCatalogo" expanded="True">
             <Node name="ApiCatalogo" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Repository" expanded="True">
-                <Node name="Repository.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
