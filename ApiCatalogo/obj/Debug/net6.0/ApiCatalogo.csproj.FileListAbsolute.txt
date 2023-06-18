@@ -266,3 +266,5 @@
 /Users/gui1andre/Projects/ApiCatalogo/ApiCatalogo/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
 /Users/gui1andre/Projects/ApiCatalogo/ApiCatalogo/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/gui1andre/Projects/ApiCatalogo/ApiCatalogo/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/gui1andre/Projects/ApiCatalogo/ApiCatalogo/bin/Debug/net6.0/AutoMapper.dll
+/Users/gui1andre/Projects/ApiCatalogo/ApiCatalogo/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

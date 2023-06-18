@@ -1,30 +1,30 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{D0D71380-50D4-4A5E-8AF7-87B5E2EC0F87}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ApiCatalogo PreferredExecutionTarget="/Applications/Arc.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+﻿<Properties StartupConfiguration="{D0D71380-50D4-4A5E-8AF7-87B5E2EC0F87}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ApiCatalogo/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.ApiCatalogo PreferredExecutionTarget="/Applications/Arc.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ApiCatalogo/Controllers/CategoriasController.cs">
     <Files>
-      <File FileName="ApiCatalogo/Repository/IUnitOfWork.cs" Line="8" Column="19" />
-      <File FileName="ApiCatalogo/Repository/UnitOfWork.cs" Line="20" Column="1" />
-      <File FileName="ApiCatalogo/Repository/ProdutoRepository.cs" Line="8" Column="31" />
-      <File FileName="ApiCatalogo/Program.cs" Line="9" Column="1" />
+      <File FileName="ApiCatalogo/Controllers/ProdutosController.cs" Line="98" Column="59" />
+      <File FileName="ApiCatalogo/Controllers/CategoriasController.cs" Line="99" Column="107" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ApiCatalogo" expanded="True">
             <Node name="ApiCatalogo" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Repository" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="CategoriasController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
