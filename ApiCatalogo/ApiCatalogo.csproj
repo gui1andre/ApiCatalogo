@@ -25,6 +25,7 @@
     <None Remove="Repository\" />
     <None Remove="DTOs\" />
     <None Remove="DTOs\Mappings\" />
+    <None Remove="Pagination\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -33,5 +34,6 @@
     <Folder Include="Repository\" />
     <Folder Include="DTOs\" />
     <Folder Include="DTOs\Mappings\" />
+    <Folder Include="Pagination\" />
   </ItemGroup>
 </Project>
