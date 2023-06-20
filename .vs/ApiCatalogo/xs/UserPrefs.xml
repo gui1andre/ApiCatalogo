@@ -1,15 +1,8 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{D0D71380-50D4-4A5E-8AF7-87B5E2EC0F87}|Default">
+﻿<Properties StartupConfiguration="{D0D71380-50D4-4A5E-8AF7-87B5E2EC0F87}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.ItemProperties.ApiCatalogo PreferredExecutionTarget="/Applications/Arc.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ApiCatalogo/appsettings.json">
     <Files>
-      <File FileName="ApiCatalogo/Controllers/ProdutosController.cs" />
-      <File FileName="ApiCatalogo/Controllers/CategoriasController.cs" Line="99" Column="107" />
-      <File FileName="ApiCatalogo/appsettings.json" Line="1" Column="1" />
+      <File FileName="ApiCatalogo/appsettings.json" Line="3" Column="90" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,11 +12,19 @@
               <Node name="Dependencies" expanded="True" />
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
+              <Node name="Pagination" expanded="True" />
+              <Node name="Repository" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
 </Properties>

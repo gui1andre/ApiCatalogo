@@ -14,14 +14,15 @@ public class CategoriaRepository : Repository<Categoria>, ICategoriaRepository
 
 	}
 
-    public PagedList<Categoria> GetCategorias(CategoriasParameters categoriaparameters)
+    public async Task<PagedList<Categoria>> GetCategorias(CategoriasParameters categoriaparameters)
     {
-        return PagedList<Categoria>.ToPagedList(Get().OrderBy(o => o.CategoriaId), categoriaparameters.PageNumber, categoriaparameters.PageSize);
+      
+        return await PagedList<Categoria>.ToPagedList(Get().OrderBy(o => o.CategoriaId), categoriaparameters.PageNumber, categoriaparameters.PageSize);
     }
 
-    public IEnumerable<Categoria> GetCategoriasPorProduto()
+    public async Task<IEnumerable<Categoria>> GetCategoriasPorProduto()
     {
-        return Get().Include(c => c.Produtos).ToList();
+        return await Get().Include(c => c.Produtos).ToListAsync();
     }
 }
 
