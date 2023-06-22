@@ -1,14 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ApiCatalogo.Context;
 using ApiCatalogo.DTOs;
 using ApiCatalogo.Models;
 using ApiCatalogo.Pagination;
 using ApiCatalogo.Repository;
 using AutoMapper;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -16,6 +12,7 @@ namespace ApiCatalogo.Controllers;
 
 [Route("[controller]")]
 [ApiController]
+[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
 public class ProdutosController : ControllerBase
 {
     private readonly IUnitOfWork _uof;

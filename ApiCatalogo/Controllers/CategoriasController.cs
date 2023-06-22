@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ApiCatalogo.Context;
-using ApiCatalogo.DTOs;
+﻿using ApiCatalogo.DTOs;
 using ApiCatalogo.Models;
 using ApiCatalogo.Pagination;
 using ApiCatalogo.Repository;
 using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -18,6 +14,7 @@ namespace ApiCatalogo.Controllers;
 
 [Route("[controller]")]
 [ApiController]
+[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
 public class CategoriasController : Controller
 {
     private readonly IUnitOfWork _uof;
