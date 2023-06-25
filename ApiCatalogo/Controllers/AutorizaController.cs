@@ -54,11 +54,20 @@ public class AutorizaController : ControllerBase
     }
 
     [HttpPost("login")]
-    public async Task<ActionResult> Login([FromBody] UsuarioDTO usuarioDTO)
+    public async Task<ActionResult<UsuarioToken>> Login([FromBody] UsuarioDTO usuarioDTO)
     {
         var result = await _singInManager.PasswordSignInAsync(usuarioDTO.Email, usuarioDTO.Password, isPersistent: false, lockoutOnFailure: false);
         if (result.Succeeded)
-            return Ok(GerarToken(usuarioDTO));
+        {
+            UsuarioToken token = GerarToken(usuarioDTO);
+            return Ok(new
+            {
+                token.Token,
+                token.Authenticated,
+                token.Message,
+                token.Expiration
+            });
+        }
         ModelState.AddModelError(string.Empty, "Login Invalido");
         return BadRequest(ModelState);
     }

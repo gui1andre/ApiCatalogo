@@ -73,6 +73,17 @@ var mappingConfig = new MapperConfiguration(mc =>
 IMapper mapper = mappingConfig.CreateMapper();
 builder.Services.AddSingleton(mapper);
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+//builder.Services.AddCors(opciones =>
+//{
+//    opciones.AddDefaultPolicy(builder =>
+//    {
+//        builder.WithOrigins("https://www.apirequest.io")
+//        .AllowAnyMethod()
+//        .AllowAnyHeader();
+
+//    });
+//});
+builder.Services.AddCors();
 
 var app = builder.Build();
 
@@ -87,6 +98,8 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 
 app.UseAuthorization();
+
+app.UseCors(c =>c.AllowAnyOrigin());
 
 app.MapControllers();
 
